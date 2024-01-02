@@ -51,8 +51,20 @@ public class LoanCalc {
 	*/
 	// Side effect: modifies the class variable iterationCounter.
     public static double bisectionSolver(double loan, double rate, int n, double epsilon) {  
-    	// Replace the following statement with your code
-    	return 0;
+    	// Sets L and H to initial values such that 𝑓(𝐿) > 0, 𝑓(𝐻) < 0,
+		double h=loan;
+		double l=0.0;
+		double g=(loan+l)/2;
+		// implying that the function evaluates to zero somewhere between L and H.
+		// So, let’s assume that L and H were set to such initial values. //Setgto(𝐿 + 𝐻)/2
+		while ((h-l) > epsilon){
+			// Sets L and H for the next iteration
+			if 𝑓(𝑔)∙𝑓(𝐿) > 0
+			// the solution must be between g and H // so set L or H accordingly
+			else
+			// the solution must be between L and g // so set L or H accordingly
+			// Computes the mid-value (𝑔) for the next iteration }
+		return 0;
     }
 	
 	/**
